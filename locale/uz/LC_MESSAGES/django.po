@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 16:27+0500\n"
+"PO-Revision-Date: 2026-07-27 16:28+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Templete/blank.html:53 Templete/blank.html:312 Templete/checkout.html:53
+#: Templete/checkout.html:482 Templete/index.html:52 Templete/index.html:579
+#: Templete/product.html:38 Templete/store.html:53 Templete/store.html:801
+msgid "My Account"
+msgstr "Mening Hisobim"
+
+#: Templete/blank.html:80 Templete/checkout.html:80 Templete/index.html:77
+#: Templete/product.html:64 Templete/store.html:80 Templete/store.html:200
+msgid "All Categories"
+msgstr "Barcha Kategoriyalar"
+
+#: Templete/blank.html:81 Templete/checkout.html:81 Templete/index.html:78
+#: Templete/store.html:81
+msgid "Category 01"
+msgstr "Kategoriya 01"
+
+#: Templete/blank.html:82 Templete/checkout.html:82 Templete/index.html:79
+#: Templete/store.html:82
+msgid "Category 02"
+msgstr "Kategoriya 02"
+
+#: Templete/blank.html:84 Templete/checkout.html:84 Templete/index.html:81
+#: Templete/store.html:84
+msgid "Search here"
+msgstr "Bu yerdan qidiring"
+
+#: Templete/blank.html:85 Templete/checkout.html:85 Templete/index.html:82
+#: Templete/store.html:85
+msgid "Search"
+msgstr "Qidirish"
+
+#: Templete/blank.html:98 Templete/checkout.html:98 Templete/index.html:95
+#: Templete/store.html:98
+msgid "Your Wishlist"
+msgstr "Sizning Sevimlilaringiz"
+
+#: Templete/blank.html:108 Templete/checkout.html:108 Templete/index.html:105
+#: Templete/store.html:108
+msgid "Your Cart"
+msgstr "Sizning Savatingiz"
+
+#: Templete/blank.html:118 Templete/blank.html:129 Templete/checkout.html:118
+#: Templete/checkout.html:129 Templete/store.html:118 Templete/store.html:129
+#: Templete/store.html:367 Templete/store.html:378 Templete/store.html:389
+#: Templete/store.html:440 Templete/store.html:473 Templete/store.html:505
+#: Templete/store.html:532 Templete/store.html:559 Templete/store.html:584
+#: Templete/store.html:616 Templete/store.html:646 Templete/store.html:673
+msgid "product name goes here"
+msgstr "mahsulot nomi shu yerga"
+
+#: Templete/blank.html:136 Templete/checkout.html:136 Templete/store.html:136
+msgid "3 Item(s) selected"
+msgstr "3 ta element tanlangan"
+
+#: Templete/blank.html:137 Templete/checkout.html:137 Templete/store.html:137
+msgid "SUBTOTAL"
+msgstr "JAMI"
+
+#: Templete/blank.html:140 Templete/blank.html:313 Templete/checkout.html:140
+#: Templete/checkout.html:483 Templete/index.html:580 Templete/store.html:140
+#: Templete/store.html:802
+msgid "View Cart"
+msgstr "Savatchani Ko'rish"
+
+#: Templete/blank.html:141 Templete/checkout.html:141
+#: Templete/checkout.html:198 Templete/checkout.html:201
+#: Templete/store.html:141
+msgid "Checkout"
+msgstr "Rasmiylashtirish"
+
+#: Templete/blank.html:151 Templete/checkout.html:151 Templete/store.html:151
+msgid "Menu"
+msgstr "Menyu"
+
+#: Templete/blank.html:175 Templete/blank.html:200 Templete/checkout.html:175
+#: Templete/checkout.html:200 Templete/index.html:127 Templete/product.html:63
+#: Templete/store.html:175 Templete/store.html:199
+msgid "Home"
+msgstr "Bosh Sahifa"
+
+#: Templete/blank.html:176 Templete/checkout.html:176 Templete/index.html:128
+#: Templete/store.html:176
+msgid "Hot Deals"
+msgstr "Qaynoq Takliflar"
+
+#: Templete/blank.html:177 Templete/blank.html:282 Templete/checkout.html:177
+#: Templete/checkout.html:452 Templete/index.html:129 Templete/index.html:549
+#: Templete/store.html:177 Templete/store.html:222 Templete/store.html:771
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: Templete/blank.html:178 Templete/blank.html:285 Templete/checkout.html:178
+#: Templete/checkout.html:455 Templete/index.html:130 Templete/index.html:193
+#: Templete/index.html:364 Templete/index.html:552 Templete/store.html:178
+#: Templete/store.html:229 Templete/store.html:265 Templete/store.html:774
+msgid "Laptops"
+msgstr "Noutbuklar"
+
+#: Templete/blank.html:179 Templete/blank.html:286 Templete/checkout.html:179
+#: Templete/checkout.html:456 Templete/index.html:131 Templete/index.html:194
+#: Templete/index.html:365 Templete/index.html:553 Templete/store.html:179
+#: Templete/store.html:238 Templete/store.html:274 Templete/store.html:775
+msgid "Smartphones"
+msgstr "Smartfonlar"
+
+#: Templete/blank.html:180 Templete/blank.html:287 Templete/checkout.html:180
+#: Templete/checkout.html:457 Templete/index.html:132 Templete/index.html:195
+#: Templete/index.html:366 Templete/index.html:554 Templete/store.html:180
+#: Templete/store.html:247 Templete/store.html:776
+msgid "Cameras"
+msgstr "Kamera va Videokameralar"
+
+#: Templete/blank.html:181 Templete/blank.html:288 Templete/checkout.html:181
+#: Templete/checkout.html:458 Templete/index.html:133 Templete/index.html:196
+#: Templete/index.html:367 Templete/index.html:555 Templete/store.html:181
+#: Templete/store.html:201 Templete/store.html:256 Templete/store.html:777
+msgid "Accessories"
+msgstr "Aksessuarlar"
+
+#: Templete/blank.html:198
+msgid "Regular Page"
+msgstr "Oddiy Sahifa"
+
+#: Templete/blank.html:201
+msgid "Blank"
+msgstr "Bo'sh"
+
+#: Templete/blank.html:232 Templete/checkout.html:402 Templete/index.html:512
+#: Templete/store.html:721
+msgid "Sign Up for the"
+msgstr "Obuna Bo'ling"
+
+#: Templete/blank.html:232 Templete/checkout.html:402 Templete/index.html:512
+#: Templete/store.html:721
+msgid "NEWSLETTER"
+msgstr "YANGILIKLARGA"
+
+#: Templete/blank.html:234 Templete/checkout.html:404 Templete/index.html:514
+#: Templete/store.html:723
+msgid "Enter Your Email"
+msgstr "E-pochta Manzilingizni Kiriting"
+
+#: Templete/blank.html:235 Templete/checkout.html:405 Templete/index.html:515
+#: Templete/store.html:724
+msgid "Subscribe"
+msgstr "Obuna Bo'lish"
+
+#: Templete/blank.html:270 Templete/blank.html:299 Templete/checkout.html:440
+#: Templete/checkout.html:469 Templete/index.html:537 Templete/index.html:566
+#: Templete/store.html:759 Templete/store.html:788
+msgid "About Us"
+msgstr "Biz Haqimizda"
+
+#: Templete/blank.html:271 Templete/checkout.html:441 Templete/index.html:538
+#: Templete/store.html:760
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut."
+msgstr ""
+"Lorem ipsum - bu matn va dizayn sohalarida ishlatiladigan to'ldiruvchi matn."
+
+#: Templete/blank.html:284 Templete/checkout.html:454 Templete/index.html:551
+#: Templete/store.html:773
+msgid "Hot deals"
+msgstr "Qaynoq takliflar"
+
+#: Templete/blank.html:297 Templete/checkout.html:467 Templete/index.html:564
+#: Templete/store.html:786
+msgid "Information"
+msgstr "Ma'lumot"
+
+#: Templete/blank.html:300 Templete/checkout.html:470 Templete/index.html:567
+#: Templete/store.html:789
+msgid "Contact Us"
+msgstr "Biz bilan Bog'lanish"
+
+#: Templete/blank.html:301 Templete/checkout.html:471 Templete/index.html:568
+#: Templete/store.html:790
+msgid "Privacy Policy"
+msgstr "Maxfiylik Siyosati"
+
+#: Templete/blank.html:302 Templete/checkout.html:472 Templete/index.html:569
+#: Templete/store.html:791
+msgid "Orders and Returns"
+msgstr "Buyurtmalar va Qaytarish"
+
+#: Templete/blank.html:303 Templete/checkout.html:473 Templete/index.html:570
+#: Templete/store.html:792
+msgid "Terms & Conditions"
+msgstr "Foydalanish Shartlari"
+
+#: Templete/blank.html:310 Templete/checkout.html:480 Templete/index.html:577
+#: Templete/store.html:799
+msgid "Service"
+msgstr "Xizmat"
+
+#: Templete/blank.html:314 Templete/checkout.html:484 Templete/index.html:581
+#: Templete/store.html:803
+msgid "Wishlist"
+msgstr "Sevimlilar"
+
+#: Templete/blank.html:315 Templete/checkout.html:485 Templete/index.html:582
+#: Templete/store.html:804
+msgid "Track My Order"
+msgstr "Buyurtmamni Kuzatish"
+
+#: Templete/blank.html:316 Templete/checkout.html:486 Templete/index.html:583
+#: Templete/store.html:805
+msgid "Help"
+msgstr "Yordam"
+
+#: Templete/blank.html:343 Templete/checkout.html:513 Templete/index.html:604
+#: Templete/store.html:832
+msgid "All rights reserved | This template is made with"
+msgstr "Barcha huquqlar himoyalangan | Bu shablon"
+
+#: Templete/checkout.html:222
+msgid "Billing address"
+msgstr "To'lov manzili"
+
+#: Templete/checkout.html:227 Templete/checkout.html:281
+msgid "First Name"
+msgstr "Ism"
+
+#: Templete/checkout.html:230 Templete/checkout.html:284
+msgid "Last Name"
+msgstr "Familiya"
+
+#: Templete/checkout.html:233 Templete/checkout.html:287
+msgid "Email"
+msgstr "E-pochta"
+
+#: Templete/checkout.html:236 Templete/checkout.html:290
+msgid "Address"
+msgstr "Manzil"
+
+#: Templete/checkout.html:239 Templete/checkout.html:293
+msgid "City"
+msgstr "Shahar"
+
+#: Templete/checkout.html:242 Templete/checkout.html:296
+msgid "Country"
+msgstr "Davlat"
+
+#: Templete/checkout.html:245 Templete/checkout.html:299
+msgid "ZIP Code"
+msgstr "Pochta indeksi"
+
+#: Templete/checkout.html:248 Templete/checkout.html:302
+msgid "Telephone"
+msgstr "Telefon"
+
+#: Templete/checkout.html:256
+msgid "Create Account?"
+msgstr "Hisob yaratasizmi?"
+
+#: Templete/checkout.html:259
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt."
+msgstr ""
+"Lorem ipsum - bu matn va dizayn sohalarida ishlatiladigan to'ldiruvchi matn."
+
+#: Templete/checkout.html:260
+msgid "Enter Your Password"
+msgstr "Parolingizni kiriting"
+
+#: Templete/checkout.html:271
+msgid "Shiping address"
+msgstr "Yetkazib berish manzili"
+
+#: Templete/checkout.html:277
+msgid "Ship to a diffrent address?"
+msgstr "Boshqa manzilga yetkazib berilsinmi?"
+
+#: Templete/checkout.html:311
+msgid "Order Notes"
+msgstr "Buyurtma eslatmalari"
+
+#: Templete/checkout.html:319
+msgid "Your Order"
+msgstr "Sizning buyurtmangiz"
+
+#: Templete/checkout.html:323
+msgid "PRODUCT"
+msgstr "MAHSULOT"
+
+#: Templete/checkout.html:324 Templete/checkout.html:341
+msgid "TOTAL"
+msgstr "JAMI"
+
+#: Templete/checkout.html:328 Templete/checkout.html:332
+msgid "Product Name Goes Here"
+msgstr "Mahsulot nomi shu yerga"
+
+#: Templete/checkout.html:337
+msgid "Shiping"
+msgstr "Yetkazib berish"
+
+#: Templete/checkout.html:338
+msgid "FREE"
+msgstr "BEPUL"
+
+#: Templete/checkout.html:350
+msgid "Direct Bank Transfer"
+msgstr "To'g'ridan-to'g'ri bank o'tkazmasi"
+
+#: Templete/checkout.html:353 Templete/checkout.html:363
+#: Templete/checkout.html:373
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+"Lorem ipsum - bu matn va dizayn sohalarida ishlatiladigan to'ldiruvchi matn."
+
+#: Templete/checkout.html:360
+msgid "Cheque Payment"
+msgstr "Chek orqali to'lov"
+
+#: Templete/checkout.html:370
+msgid "Paypal System"
+msgstr "Paypal tizimi"
+
+#: Templete/checkout.html:381
+msgid "I've read and accept the"
+msgstr "Men o'qib chiqdim va qabul qilaman"
+
+#: Templete/checkout.html:381
+msgid "terms & conditions"
+msgstr "foydalanish shartlari"
+
+#: Templete/checkout.html:384
+msgid "Place order"
+msgstr "Buyurtma berish"
+
+#: Templete/index.html:173 Templete/index.html:346
+msgid "Shop now"
+msgstr "Hozir xarid qiling"
+
+#: Templete/index.html:190
+msgid "New Products"
+msgstr "Yangi mahsulotlar"
+
+#: Templete/index.html:217 Templete/index.html:244 Templete/index.html:390
+#: Templete/store.html:435 Templete/store.html:468
+msgid "NEW"
+msgstr "YANGI"
+
+#: Templete/index.html:222
+msgid "Korish"
+msgstr "Ko'rish"
+
+#: Templete/index.html:249 Templete/index.html:273 Templete/index.html:294
+#: Templete/store.html:366 Templete/store.html:377 Templete/store.html:388
+#: Templete/store.html:439 Templete/store.html:472 Templete/store.html:504
+#: Templete/store.html:531 Templete/store.html:558 Templete/store.html:583
+#: Templete/store.html:615 Templete/store.html:645 Templete/store.html:672
+msgid "Category"
+msgstr "Kategoriya"
+
+#: Templete/index.html:322
+msgid "Days"
+msgstr "Kun"
+
+#: Templete/index.html:328
+msgid "Hours"
+msgstr "Soat"
+
+#: Templete/index.html:334
+msgid "Mins"
+msgstr "Daqiqa"
+
+#: Templete/index.html:340
+msgid "Secs"
+msgstr "Soniy"
+
+#: Templete/index.html:344
+msgid "hot deal this week"
+msgstr "bu haftaning qaynoq taklifi"
+
+#: Templete/index.html:345
+#, python-format
+msgid "New Collection Up to 50%% OFF"
+msgstr "Yangi kolleksiya 50%% gacha chegirma"
+
+#: Templete/index.html:361 Templete/index.html:445 Templete/index.html:477
+#: Templete/store.html:360
+msgid "Top selling"
+msgstr "Eng ko'p sotilgan"
+
+#: Templete/index.html:413 Templete/store.html:450 Templete/store.html:483
+#: Templete/store.html:510 Templete/store.html:537 Templete/store.html:564
+#: Templete/store.html:594 Templete/store.html:626 Templete/store.html:651
+#: Templete/store.html:678
+msgid "add to wishlist"
+msgstr "sevimlilarga qo'shish"
+
+#: Templete/index.html:414 Templete/store.html:451 Templete/store.html:484
+#: Templete/store.html:511 Templete/store.html:538 Templete/store.html:565
+#: Templete/store.html:595 Templete/store.html:627 Templete/store.html:652
+#: Templete/store.html:679
+msgid "add to compare"
+msgstr "taqqoslash uchun qo'shish"
+
+#: Templete/index.html:415 Templete/store.html:452 Templete/store.html:485
+#: Templete/store.html:512 Templete/store.html:539 Templete/store.html:566
+#: Templete/store.html:596 Templete/store.html:628 Templete/store.html:653
+#: Templete/store.html:680
+msgid "quick view"
+msgstr "tez ko'rish"
+
+#: Templete/index.html:419 Templete/store.html:456 Templete/store.html:489
+#: Templete/store.html:516 Templete/store.html:543 Templete/store.html:570
+#: Templete/store.html:600 Templete/store.html:632 Templete/store.html:657
+#: Templete/store.html:684
+msgid "add to cart"
+msgstr "savatchaga qo'shish"
+
+#: Templete/product.html:104
+msgid "10 Review(s) | Add your review"
+msgstr "10 ta sharh | O'z sharhingizni qo'shing"
+
+#: Templete/product.html:114
+msgid "In Stock"
+msgstr "Zaxirada bor"
+
+#: Templete/product.html:123
+msgid "Size"
+msgstr "O'lcham"
+
+#: Templete/product.html:129
+msgid "Color"
+msgstr "Rang"
+
+#: Templete/product.html:146
+msgid "Related Products"
+msgstr "Tegishli mahsulotlar"
+
+#: Templete/store.html:202
+msgid "Headphones (227,490 Results)"
+msgstr "Naushniklar (227,490 ta natija)"
+
+#: Templete/store.html:284
+msgid "Price"
+msgstr "Narx"
+
+#: Templete/store.html:304
+msgid "Brand"
+msgstr "Brend"
+
+#: Templete/store.html:404
+msgid "Sort By:"
+msgstr "Saralash:"
+
+#: Templete/store.html:406
+msgid "Popular"
+msgstr "Ommabop"
+
+#: Templete/store.html:407
+msgid "Position"
+msgstr "Pozitsiya"
+
+#: Templete/store.html:412
+msgid "Show:"
+msgstr "Ko'rsatish:"
+
+#: Templete/store.html:694
+msgid "Showing 20-100 products"
+msgstr "20-100 ta mahsulot ko'rsatilmoqda"
+
+#: Templete/tek.html:17
+msgid "Nima ozgardi"
+msgstr "Nima ozgardi"

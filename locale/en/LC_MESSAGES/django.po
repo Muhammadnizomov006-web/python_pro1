@@ -1,0 +1,1814 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-28 16:27+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Templete/blank.html:53 Templete/blank.html:312 Templete/checkout.html:53
+#: Templete/checkout.html:482 Templete/index.html:52 Templete/index.html:579
+#: Templete/product.html:38 Templete/store.html:53 Templete/store.html:801
+msgid "My Account"
+msgstr "My Account"
+
+#: Templete/blank.html:80 Templete/checkout.html:80 Templete/index.html:77
+#: Templete/product.html:64 Templete/store.html:80 Templete/store.html:200
+msgid "All Categories"
+msgstr "All Categories"
+
+#: Templete/blank.html:81 Templete/checkout.html:81 Templete/index.html:78
+#: Templete/store.html:81
+msgid "Category 01"
+msgstr "Category 01"
+
+#: Templete/blank.html:82 Templete/checkout.html:82 Templete/index.html:79
+#: Templete/store.html:82
+msgid "Category 02"
+msgstr "Category 02"
+
+#: Templete/blank.html:84 Templete/checkout.html:84 Templete/index.html:81
+#: Templete/store.html:84
+msgid "Search here"
+msgstr "Search here"
+
+#: Templete/blank.html:85 Templete/checkout.html:85 Templete/index.html:82
+#: Templete/store.html:85
+msgid "Search"
+msgstr "Search"
+
+#: Templete/blank.html:98 Templete/checkout.html:98 Templete/index.html:95
+#: Templete/store.html:98
+msgid "Your Wishlist"
+msgstr "Your Wishlist"
+
+#: Templete/blank.html:108 Templete/checkout.html:108 Templete/index.html:105
+#: Templete/store.html:108
+msgid "Your Cart"
+msgstr "Your Cart"
+
+#: Templete/blank.html:118 Templete/blank.html:129 Templete/checkout.html:118
+#: Templete/checkout.html:129 Templete/store.html:118 Templete/store.html:129
+#: Templete/store.html:367 Templete/store.html:378 Templete/store.html:389
+#: Templete/store.html:440 Templete/store.html:473 Templete/store.html:505
+#: Templete/store.html:532 Templete/store.html:559 Templete/store.html:584
+#: Templete/store.html:616 Templete/store.html:646 Templete/store.html:673
+msgid "product name goes here"
+msgstr "product name goes here"
+
+#: Templete/blank.html:136 Templete/checkout.html:136 Templete/store.html:136
+msgid "3 Item(s) selected"
+msgstr "3 Item(s) selected"
+
+#: Templete/blank.html:137 Templete/checkout.html:137 Templete/store.html:137
+msgid "SUBTOTAL"
+msgstr "SUBTOTAL"
+
+#: Templete/blank.html:140 Templete/blank.html:313 Templete/checkout.html:140
+#: Templete/checkout.html:483 Templete/index.html:580 Templete/store.html:140
+#: Templete/store.html:802
+msgid "View Cart"
+msgstr "View Cart"
+
+#: Templete/blank.html:141 Templete/checkout.html:141
+#: Templete/checkout.html:198 Templete/checkout.html:201
+#: Templete/store.html:141
+msgid "Checkout"
+msgstr "Checkout"
+
+#: Templete/blank.html:151 Templete/checkout.html:151 Templete/store.html:151
+msgid "Menu"
+msgstr "Menu"
+
+#: Templete/blank.html:175 Templete/blank.html:200 Templete/checkout.html:175
+#: Templete/checkout.html:200 Templete/index.html:127 Templete/product.html:63
+#: Templete/store.html:175 Templete/store.html:199
+msgid "Home"
+msgstr "Home"
+
+#: Templete/blank.html:176 Templete/checkout.html:176 Templete/index.html:128
+#: Templete/store.html:176
+msgid "Hot Deals"
+msgstr "Hot Deals"
+
+#: Templete/blank.html:177 Templete/blank.html:282 Templete/checkout.html:177
+#: Templete/checkout.html:452 Templete/index.html:129 Templete/index.html:549
+#: Templete/store.html:177 Templete/store.html:222 Templete/store.html:771
+msgid "Categories"
+msgstr "Categories"
+
+#: Templete/blank.html:178 Templete/blank.html:285 Templete/checkout.html:178
+#: Templete/checkout.html:455 Templete/index.html:130 Templete/index.html:193
+#: Templete/index.html:364 Templete/index.html:552 Templete/store.html:178
+#: Templete/store.html:229 Templete/store.html:265 Templete/store.html:774
+msgid "Laptops"
+msgstr "Laptops"
+
+#: Templete/blank.html:179 Templete/blank.html:286 Templete/checkout.html:179
+#: Templete/checkout.html:456 Templete/index.html:131 Templete/index.html:194
+#: Templete/index.html:365 Templete/index.html:553 Templete/store.html:179
+#: Templete/store.html:238 Templete/store.html:274 Templete/store.html:775
+msgid "Smartphones"
+msgstr "Smartphones"
+
+#: Templete/blank.html:180 Templete/blank.html:287 Templete/checkout.html:180
+#: Templete/checkout.html:457 Templete/index.html:132 Templete/index.html:195
+#: Templete/index.html:366 Templete/index.html:554 Templete/store.html:180
+#: Templete/store.html:247 Templete/store.html:776
+msgid "Cameras"
+msgstr "Cameras"
+
+#: Templete/blank.html:181 Templete/blank.html:288 Templete/checkout.html:181
+#: Templete/checkout.html:458 Templete/index.html:133 Templete/index.html:196
+#: Templete/index.html:367 Templete/index.html:555 Templete/store.html:181
+#: Templete/store.html:201 Templete/store.html:256 Templete/store.html:777
+msgid "Accessories"
+msgstr "Accessories"
+
+#: Templete/blank.html:198
+msgid "Regular Page"
+msgstr "Regular Page"
+
+#: Templete/blank.html:201
+msgid "Blank"
+msgstr "Blank"
+
+#: Templete/blank.html:232 Templete/checkout.html:402 Templete/index.html:512
+#: Templete/store.html:721
+msgid "Sign Up for the"
+msgstr "Sign Up for the"
+
+#: Templete/blank.html:232 Templete/checkout.html:402 Templete/index.html:512
+#: Templete/store.html:721
+msgid "NEWSLETTER"
+msgstr "NEWSLETTER"
+
+#: Templete/blank.html:234 Templete/checkout.html:404 Templete/index.html:514
+#: Templete/store.html:723
+msgid "Enter Your Email"
+msgstr "Enter Your Email"
+
+#: Templete/blank.html:235 Templete/checkout.html:405 Templete/index.html:515
+#: Templete/store.html:724
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: Templete/blank.html:270 Templete/blank.html:299 Templete/checkout.html:440
+#: Templete/checkout.html:469 Templete/index.html:537 Templete/index.html:566
+#: Templete/store.html:759 Templete/store.html:788
+msgid "About Us"
+msgstr "About Us"
+
+#: Templete/blank.html:271 Templete/checkout.html:441 Templete/index.html:538
+#: Templete/store.html:760
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut."
+
+#: Templete/blank.html:284 Templete/checkout.html:454 Templete/index.html:551
+#: Templete/store.html:773
+msgid "Hot deals"
+msgstr "Hot deals"
+
+#: Templete/blank.html:297 Templete/checkout.html:467 Templete/index.html:564
+#: Templete/store.html:786
+msgid "Information"
+msgstr "Information"
+
+#: Templete/blank.html:300 Templete/checkout.html:470 Templete/index.html:567
+#: Templete/store.html:789
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: Templete/blank.html:301 Templete/checkout.html:471 Templete/index.html:568
+#: Templete/store.html:790
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: Templete/blank.html:302 Templete/checkout.html:472 Templete/index.html:569
+#: Templete/store.html:791
+msgid "Orders and Returns"
+msgstr "Orders and Returns"
+
+#: Templete/blank.html:303 Templete/checkout.html:473 Templete/index.html:570
+#: Templete/store.html:792
+msgid "Terms & Conditions"
+msgstr "Terms & Conditions"
+
+#: Templete/blank.html:310 Templete/checkout.html:480 Templete/index.html:577
+#: Templete/store.html:799
+msgid "Service"
+msgstr "Service"
+
+#: Templete/blank.html:314 Templete/checkout.html:484 Templete/index.html:581
+#: Templete/store.html:803
+msgid "Wishlist"
+msgstr "Wishlist"
+
+#: Templete/blank.html:315 Templete/checkout.html:485 Templete/index.html:582
+#: Templete/store.html:804
+msgid "Track My Order"
+msgstr "Track My Order"
+
+#: Templete/blank.html:316 Templete/checkout.html:486 Templete/index.html:583
+#: Templete/store.html:805
+msgid "Help"
+msgstr "Help"
+
+#: Templete/blank.html:343 Templete/checkout.html:513 Templete/index.html:604
+#: Templete/store.html:832
+msgid "All rights reserved | This template is made with"
+msgstr "All rights reserved | This template is made with"
+
+#: Templete/checkout.html:222
+msgid "Billing address"
+msgstr "Billing address"
+
+#: Templete/checkout.html:227 Templete/checkout.html:281
+msgid "First Name"
+msgstr "First Name"
+
+#: Templete/checkout.html:230 Templete/checkout.html:284
+msgid "Last Name"
+msgstr "Last Name"
+
+#: Templete/checkout.html:233 Templete/checkout.html:287
+msgid "Email"
+msgstr "Email"
+
+#: Templete/checkout.html:236 Templete/checkout.html:290
+msgid "Address"
+msgstr "Address"
+
+#: Templete/checkout.html:239 Templete/checkout.html:293
+msgid "City"
+msgstr "City"
+
+#: Templete/checkout.html:242 Templete/checkout.html:296
+msgid "Country"
+msgstr "Country"
+
+#: Templete/checkout.html:245 Templete/checkout.html:299
+msgid "ZIP Code"
+msgstr "ZIP Code"
+
+#: Templete/checkout.html:248 Templete/checkout.html:302
+msgid "Telephone"
+msgstr "Telephone"
+
+#: Templete/checkout.html:256
+msgid "Create Account?"
+msgstr "Create Account?"
+
+#: Templete/checkout.html:259
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt."
+
+#: Templete/checkout.html:260
+msgid "Enter Your Password"
+msgstr "Enter Your Password"
+
+#: Templete/checkout.html:271
+msgid "Shiping address"
+msgstr "Shiping address"
+
+#: Templete/checkout.html:277
+msgid "Ship to a diffrent address?"
+msgstr "Ship to a diffrent address?"
+
+#: Templete/checkout.html:311
+msgid "Order Notes"
+msgstr "Order Notes"
+
+#: Templete/checkout.html:319
+msgid "Your Order"
+msgstr "Your Order"
+
+#: Templete/checkout.html:323
+msgid "PRODUCT"
+msgstr "PRODUCT"
+
+#: Templete/checkout.html:324 Templete/checkout.html:341
+msgid "TOTAL"
+msgstr "TOTAL"
+
+#: Templete/checkout.html:328 Templete/checkout.html:332
+msgid "Product Name Goes Here"
+msgstr "Product Name Goes Here"
+
+#: Templete/checkout.html:337
+msgid "Shiping"
+msgstr "Shiping"
+
+#: Templete/checkout.html:338
+msgid "FREE"
+msgstr "FREE"
+
+#: Templete/checkout.html:350
+msgid "Direct Bank Transfer"
+msgstr "Direct Bank Transfer"
+
+#: Templete/checkout.html:353 Templete/checkout.html:363
+#: Templete/checkout.html:373
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+
+#: Templete/checkout.html:360
+msgid "Cheque Payment"
+msgstr "Cheque Payment"
+
+#: Templete/checkout.html:370
+msgid "Paypal System"
+msgstr "Paypal System"
+
+#: Templete/checkout.html:381
+msgid "I've read and accept the"
+msgstr "I've read and accept the"
+
+#: Templete/checkout.html:381
+msgid "terms & conditions"
+msgstr "terms & conditions"
+
+#: Templete/checkout.html:384
+msgid "Place order"
+msgstr "Place order"
+
+#: Templete/index.html:173 Templete/index.html:346
+msgid "Shop now"
+msgstr "Shop now"
+
+#: Templete/index.html:190
+msgid "New Products"
+msgstr "New Products"
+
+#: Templete/index.html:217 Templete/index.html:244 Templete/index.html:390
+#: Templete/store.html:435 Templete/store.html:468
+msgid "NEW"
+msgstr "NEW"
+
+#: Templete/index.html:222
+msgid "Korish"
+msgstr "Korish"
+
+#: Templete/index.html:249 Templete/index.html:273 Templete/index.html:294
+#: Templete/store.html:366 Templete/store.html:377 Templete/store.html:388
+#: Templete/store.html:439 Templete/store.html:472 Templete/store.html:504
+#: Templete/store.html:531 Templete/store.html:558 Templete/store.html:583
+#: Templete/store.html:615 Templete/store.html:645 Templete/store.html:672
+msgid "Category"
+msgstr "Category"
+
+#: Templete/index.html:322
+msgid "Days"
+msgstr "Days"
+
+#: Templete/index.html:328
+msgid "Hours"
+msgstr "Hours"
+
+#: Templete/index.html:334
+msgid "Mins"
+msgstr "Mins"
+
+#: Templete/index.html:340
+msgid "Secs"
+msgstr "Secs"
+
+#: Templete/index.html:344
+msgid "hot deal this week"
+msgstr "hot deal this week"
+
+#: Templete/index.html:345
+#, python-format
+msgid "New Collection Up to 50%% OFF"
+msgstr "New Collection Up to 50%% OFF"
+
+#: Templete/index.html:361 Templete/index.html:445 Templete/index.html:477
+#: Templete/store.html:360
+msgid "Top selling"
+msgstr "Top selling"
+
+#: Templete/index.html:413 Templete/store.html:450 Templete/store.html:483
+#: Templete/store.html:510 Templete/store.html:537 Templete/store.html:564
+#: Templete/store.html:594 Templete/store.html:626 Templete/store.html:651
+#: Templete/store.html:678
+msgid "add to wishlist"
+msgstr "add to wishlist"
+
+#: Templete/index.html:414 Templete/store.html:451 Templete/store.html:484
+#: Templete/store.html:511 Templete/store.html:538 Templete/store.html:565
+#: Templete/store.html:595 Templete/store.html:627 Templete/store.html:652
+#: Templete/store.html:679
+msgid "add to compare"
+msgstr "add to compare"
+
+#: Templete/index.html:415 Templete/store.html:452 Templete/store.html:485
+#: Templete/store.html:512 Templete/store.html:539 Templete/store.html:566
+#: Templete/store.html:596 Templete/store.html:628 Templete/store.html:653
+#: Templete/store.html:680
+msgid "quick view"
+msgstr "quick view"
+
+#: Templete/index.html:419 Templete/store.html:456 Templete/store.html:489
+#: Templete/store.html:516 Templete/store.html:543 Templete/store.html:570
+#: Templete/store.html:600 Templete/store.html:632 Templete/store.html:657
+#: Templete/store.html:684
+msgid "add to cart"
+msgstr "add to cart"
+
+#: Templete/product.html:104
+msgid "10 Review(s) | Add your review"
+msgstr "10 Review(s) | Add your review"
+
+#: Templete/product.html:114
+msgid "In Stock"
+msgstr "In Stock"
+
+#: Templete/product.html:123
+msgid "Size"
+msgstr "Size"
+
+#: Templete/product.html:129
+msgid "Color"
+msgstr "Color"
+
+#: Templete/product.html:146
+msgid "Related Products"
+msgstr "Related Products"
+
+#: Templete/store.html:202
+msgid "Headphones (227,490 Results)"
+msgstr "Headphones (227,490 Results)"
+
+#: Templete/store.html:284
+msgid "Price"
+msgstr "Price"
+
+#: Templete/store.html:304
+msgid "Brand"
+msgstr "Brand"
+
+#: Templete/store.html:404
+msgid "Sort By:"
+msgstr "Sort By:"
+
+#: Templete/store.html:406
+msgid "Popular"
+msgstr "Popular"
+
+#: Templete/store.html:407
+msgid "Position"
+msgstr "Position"
+
+#: Templete/store.html:412
+msgid "Show:"
+msgstr "Show:"
+
+#: Templete/store.html:694
+msgid "Showing 20-100 products"
+msgstr "Showing 20-100 products"
+
+#: Templete/tek.html:17
+msgid "Nima ozgardi"
+msgstr "What changed"
+
+#: venv/lib/python3.14/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:33
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:35
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:36
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/paginator.py:37
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:153
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:773
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.14/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:309
+#: venv/lib/python3.14/site-packages/django/core/validators.py:318
+#: venv/lib/python3.14/site-packages/django/core/validators.py:332
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:320
+#: venv/lib/python3.14/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:514
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:364
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:403
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/base.py:1633
+#: venv/lib/python3.14/site-packages/django/forms/models.py:932
+#, fuzzy
+#| msgid "Brand"
+msgid "and"
+msgstr "Brand"
+
+#: venv/lib/python3.14/site-packages/django/db/models/base.py:1635
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1161
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1164
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1214
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1216
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1325
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1426
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1430
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1565
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1434
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1561
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1569
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1574
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1701
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1703
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1868
+#, fuzzy
+#| msgid "Information"
+msgid "Duration"
+msgstr "Information"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1920
+#, fuzzy
+#| msgid "Billing address"
+msgid "Email address"
+msgstr "Billing address"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2188
+#, fuzzy
+#| msgid "Address"
+msgid "IPv4 address"
+msgstr "Address"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2219
+#, fuzzy
+#| msgid "Address"
+msgid "IP address"
+msgstr "Address"
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:974
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:977
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1271
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1328
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1330
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/db/models/fields/related.py:1378
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to
+#. the label
+#: venv/lib/python3.14/site-packages/django/forms/boundfield.py:188
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:313
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:484
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:507
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:534
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:568
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:569
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:638
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:639
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:640
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:642
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:647
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:715
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:862
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:949
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1621
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:951
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1070
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1619
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1313
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/fields.py:1343
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.14/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:491
+#, fuzzy
+#| msgid "Your Order"
+msgid "Order"
+msgstr "Your Order"
+
+#: venv/lib/python3.14/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:925
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:930
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:937
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:946
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1383
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1474
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/models.py:1623
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:528
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:529
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:530
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:869
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:870
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/forms/widgets.py:871
+msgid "No"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:34
+msgctxt "Task"
+msgid "Ready"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:36
+msgctxt "Task"
+msgid "Running"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:38
+msgctxt "Task"
+msgid "Failed"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/tasks/base.py:40
+msgctxt "Task"
+msgid "Successful"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:878
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:908
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:925
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:927
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:929
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:931
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:933
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/template/defaultfilters.py:935
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:27
+#, fuzzy
+#| msgid "Search"
+msgid "March"
+msgstr "Search"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:55
+#, fuzzy
+#| msgid "Search"
+msgctxt "abbrev. month"
+msgid "March"
+msgstr "Search"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:69
+#, fuzzy
+#| msgid "Search"
+msgctxt "alt. month"
+msgid "March"
+msgstr "Search"
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/text.py:282
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.14/site-packages/django/utils/text.py:301
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/static.py:68
+#: venv/lib/python3.14/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.14/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:14
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:94
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:102
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:112
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:122
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:126
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:158
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:177
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:406
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:411
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:421
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:441
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:458
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:477
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:483
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:500
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:512
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:520
+msgid "title"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:18
+msgid "password"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:287
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:306
+msgid "title a"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:291
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:317
+msgid "title b"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:295
+msgid "title c"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:299
+msgid "title d"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/models.py:422
+msgid "visits"
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/tests/translation.py:74
+msgid "Sorry, translation is not available."
+msgstr ""
+
+#: venv/lib/python3.14/site-packages/modeltranslation/widgets.py:32
+msgid "None"
+msgstr ""

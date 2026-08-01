@@ -1,0 +1,4 @@
+django-admin compilemessages -l ...(til nomi).... -->> tarjima bolganini tekshirish uchun 
+django-admin makemessages -l ....(til nomi)....--->>> tarjima sozlarni yozish uchun 
+python3 manage.py  update_translation_fields -----> fileni ochish 
+
