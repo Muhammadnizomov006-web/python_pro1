@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 16:27+0500\n"
+"POT-Creation-Date: 2026-08-01 16:48+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -458,6 +458,30 @@ msgstr "Color"
 #: Templete/product.html:146
 msgid "Related Products"
 msgstr "Related Products"
+
+#: Templete/search.html:304
+msgid "Qidiruv"
+msgstr ""
+
+#: Templete/search.html:310
+msgid "Barcha natijalar"
+msgstr ""
+
+#: Templete/search.html:318
+msgid "Mahsulot nomi..."
+msgstr ""
+
+#: Templete/search.html:319
+msgid "Qidirish"
+msgstr ""
+
+#: Templete/search.html:328
+msgid "Narxi"
+msgstr ""
+
+#: Templete/search.html:334
+msgid "Hech qanday mahsulot topilmadi."
+msgstr ""
 
 #: Templete/store.html:202
 msgid "Headphones (227,490 Results)"

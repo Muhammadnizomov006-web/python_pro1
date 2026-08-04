@@ -72,13 +72,20 @@
                     <!-- SEARCH BAR -->
                     <div class="col-md-6">
                         <div class="header-search">
-                            <form>
+                            <form method="get" action="{% url 'Search'%}">
                                 <select class="input-select">
                                     <option value="0">{% trans 'All Categories' %}</option>
                                     <option value="1">{% trans 'Category 01' %}</option>
                                     <option value="2">{% trans 'Category 02' %}</option>
                                 </select>
-                                <input class="input" placeholder="{% trans 'Search here' %}">
+                                <input class="input"
+                                      type="text"
+                                      name="q"
+                                      placeholder="{% trans 'Mahsulot nomi...' %}"
+                                     value="{{ query|default:'' }}"
+
+                                >
+
                                 <button class="search-btn">{% trans 'Search' %}</button>
                             </form>
                         </div>

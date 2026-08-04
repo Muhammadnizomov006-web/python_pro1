@@ -82,7 +82,6 @@ def Taj(request):
 
 def Search(request):
     query = request.GET.get('q', '')
-
     products = Product.objects.filter(Q(name__icontains=query))
     # products1 = Product.objects.get(id=id)
     return render(request, 'search.html', {'products': products, 'query': query})

@@ -10,7 +10,7 @@ urlpatterns=[
     path('detalls/<int:pk>/',Detalles.as_view()),
     path('cheked/',Biling),
     path('tek/',Taj),
-    path('search/',Search),
+    path('search/',Search, name='Search'),
     path('sorov/',Qidiruv)
 
 ]

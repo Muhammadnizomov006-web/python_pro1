@@ -295,35 +295,51 @@
         }
     </style>
 </head>
+{% load i18n %}
 <body>
     <div class="container">
         <!-- HEADER -->
         <div class="header">
             <div class="logo-area">
-                <h1>🔍 Qidiruv </h1>
+                <h1>🔍 {% trans "Qidiruv" %}</h1>
             </div>
             <div class="query-badge">
                 {% if query %}
-                    “{{ query }}”
+                    🔍 {{ query }}
                 {% else %}
-                    Barcha natijalar
+                    {% trans "Barcha natijalar" %}
                 {% endif %}
             </div>
         </div>
 
         <!-- SEARCH FORM (GET) -->
-        <form method="get">
-        <input type="text" name="q" placeholder="Mahsulot nomi...">
-        <button type="submit">Qidirish</button>
-    </form>
+        <form method="get" >
+            <!-- Atributlar ichida tashqi qo'shtirnoq qo'sh, trans ichida esa bittalik ' ishlatiladi -->
+            <input type="text"
+                   name="q" placeholder="{% trans 'Mahsulot nomi...' %}"
+                   value="{{ query|default:'' }}"
 
-        {% for product in products %}
-            <div>
-                <h3>{{ product.name }}</h3>
-<!--                <p>{{ product.description }}</p>-->
-                <p>Narxi: ${{ product.narx }}</p>
-                <img src= "{{product.img.url}}" width="400px">
-            </div>
-        {% endfor %}
+            >
+
+            <button type="submit">{% trans "Qidirish" %}</button>
+        </form>
+
+        <!-- PRODUCTS LIST -->
+        <div class="products-list">
+            {% for product in products %}
+                <div class="product-item">
+                    <h3>{{ product.name }}</h3>
+                    <!-- <p>{{ product.description }}</p> -->
+                    <p>{% trans "Narxi" %}: ${{ product.narx }}</p>
+                    {% if product.img %}
+                        <img src="{{ product.img.url }}" alt="{{ product.name }}" width="400px">
+                    {% endif %}
+                </div>
+            {% empty %}
+                <p>{% trans "Hech qanday mahsulot topilmadi." %}</p>
+            {% endfor %}
+            <button><a href="/en/index/">Ortga </a></button>
+        </div>
+    </div>
 </body>
 </html>
