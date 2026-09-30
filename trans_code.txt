@@ -2,3 +2,280 @@ django-admin compilemessages -l ...(til nomi).... -->> tarjima bolganini tekshir
 django-admin makemessages -l ....(til nomi)....--->>> tarjima sozlarni yozish uchun 
 python3 manage.py  update_translation_fields -----> fileni ochish 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ pgadmin4
+^C
+^C
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ psql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "muhammad" does not exist
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ psql -U postgrsql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  Peer authentication failed for user "postgrsql"
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ psql -U postgrSql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  Peer authentication failed for user "postgrSql"
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ sudo systemctl start postgresql
+[sudo: authenticate] Password:     
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ /l
+bash: /l: No such file or directory
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ \l
+l: command not found
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ \ls
+Desktop	   Public	       ofis_pa-01.cap		 ofis_pa-02.cap		   poytaxt_capture-01.cap	     snap
+Documents  PyCharmMiscProject  ofis_pa-01.csv		 ofis_pa-02.csv		   poytaxt_capture-01.csv
+Downloads  Templates	       ofis_pa-01.kismet.csv	 ofis_pa-02.kismet.csv	   poytaxt_capture-01.kismet.csv
+Music	   Videos	       ofis_pa-01.kismet.netxml	 ofis_pa-02.kismet.netxml  poytaxt_capture-01.kismet.netxml
+Pictures   fluxion	       ofis_pa-01.log.csv	 ofis_pa-02.log.csv	   poytaxt_capture-01.log.csv
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ pg_lsclusters
+Ver Cluster Port Status Owner    Data directory              Log file
+18  main    5432 online postgres /var/lib/postgresql/18/main /var/log/postgresql/postgresql-18-main.log
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ \l
+l: command not found
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ dir
+Desktop	   Public	       ofis_pa-01.cap		 ofis_pa-02.cap		   poytaxt_capture-01.cap	     snap
+Documents  PyCharmMiscProject  ofis_pa-01.csv		 ofis_pa-02.csv		   poytaxt_capture-01.csv
+Downloads  Templates	       ofis_pa-01.kismet.csv	 ofis_pa-02.kismet.csv	   poytaxt_capture-01.kismet.csv
+Music	   Videos	       ofis_pa-01.kismet.netxml	 ofis_pa-02.kismet.netxml  poytaxt_capture-01.kismet.netxml
+Pictures   fluxion	       ofis_pa-01.log.csv	 ofis_pa-02.log.csv	   poytaxt_capture-01.log.csv
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ ^[[200~sudo -u postgres psql~
+sudo: command not found
+muhammad@muhammad-HP-Laptop-15-fc0xxx:~$ sudo -u postgres psql
+psql (18.4 (Ubuntu 18.4-1.pgdg26.04+1))
+Type "help" for help.
+
+postgres=# \l
+                                                       List of databases
+     Name     |  Owner   | Encoding | Locale Provider |   Collate   |    Ctype    | Locale | ICU Rules |   Access privileges   
+--------------+----------+----------+-----------------+-------------+-------------+--------+-----------+-----------------------
+ mening_bazam | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | 
+ postgres     | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | 
+ template0    | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =c/postgres          +
+              |          |          |                 |             |             |        |           | postgres=CTc/postgres
+ template1    | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |        |           | =c/postgres          +
+              |          |          |                 |             |             |        |           | postgres=CTc/postgres
+(4 rows)
+
+postgres=# \connect mening_bazam 
+You are now connected to database "mening_bazam" as user "postgres".
+mening_bazam=# \dt
+Did not find any tables.
+mening_bazam=# \d
+Did not find any relations.
+mening_bazam=# cd ..
+mening_bazam-# CREATE TABLE students (
+    id SERIAL PRIMARY KEY,
+    ism VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    yosh INTEGER,
+    yaratilgan_vaqt TIMESTAMP DEFAULT NOW()
+);
+ERROR:  syntax error at or near "cd"
+LINE 1: cd ..
+        ^
+mening_bazam=# cd ..
+CREATE TABLE students (
+    id SERIAL PRIMARY KEY,
+    ism VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    yosh INTEGER,
+    yaratilgan_vaqt TIMESTAMP DEFAULT NOW()
+);
+ERROR:  syntax error at or near "cd"
+LINE 1: cd ..
+        ^
+mening_bazam=# CREATE TABLE students (
+    id SERIAL PRIMARY KEY,
+    ism VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    yosh INTEGER,
+    yaratilgan_vaqt TIMESTAMP DEFAULT NOW()
+);
+CREATE TABLE
+mening_bazam=# \dt
+            List of tables
+ Schema |   Name   | Type  |  Owner   
+--------+----------+-------+----------
+ public | students | table | postgres
+(1 row)
+
+mening_bazam=# \d
+               List of relations
+ Schema |      Name       |   Type   |  Owner   
+--------+-----------------+----------+----------
+ public | students        | table    | postgres
+ public | students_id_seq | sequence | postgres
+(2 rows)
+
+mening_bazam=# INSERT INTO students (ism, familiya, yosh, guruh, email) VALUES
+('Ali', 'Valiyev', 20, '101-guruh', 'ali@mail.com'),
+('Vali', 'Aliyev', 21, '101-guruh', 'vali@mail.com'),
+('Malika', 'Karimova', 19, '102-guruh', 'malika@mail.com'),
+('Dilnoza', 'Rustamova', 22, '102-guruh', 'dilnoza@mail.com'),
+('Sardor', 'Tursunov', 20, '103-guruh', 'sardor@mail.com');^C
+mening_bazam=# ^[[200~INSERT INTO students (ism, email, yosh) VALUES
+mening_bazam-# ('Ali Valiyev', 'ali@mail.com', 20),
+mening_bazam-# ('Vali Aliyev', 'vali@mail.com', 21),
+mening_bazam-# ('Malika Karimova', 'malika@mail.com', 19),
+mening_bazam-# ('Dilnoza Rustamova', 'dilnoza@mail.com', 22),
+mening_bazam-# ('Sardor Tursunov', 'sardor@mail.com', 20);~
+ERROR:  syntax error at or near "
+INE 1: INSERT INTO students (ism, email, yosh) VALUES
+        ^
+mening_bazam-# INSERT INTO students (ism, email, yosh) VALUES
+('Ali Valiyev', 'ali@mail.com', 20),
+('Vali Aliyev', 'vali@mail.com', 21),
+('Malika Karimova', 'malika@mail.com', 19),
+('Dilnoza Rustamova', 'dilnoza@mail.com', 22),
+('Sardor Tursunov', 'sardor@mail.com', 20);
+ERROR:  syntax error at or near "~"
+LINE 1: ~
+        ^
+mening_bazam=# INSERT INTO students (ism, email, yosh) VALUES
+('Ali Valiyev', 'ali@mail.com', 20),
+('Vali Aliyev', 'vali@mail.com', 21),
+('Malika Karimova', 'malika@mail.com', 19),
+('Dilnoza Rustamova', 'dilnoza@mail.com', 22),
+('Sardor Tursunov', 'sardor@mail.com', 20);
+INSERT 0 5
+mening_bazam=# SELECT * FROM students;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  1 | Ali Valiyev       | ali@mail.com     |   20 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev       | vali@mail.com    |   21 | 2026-08-06 15:48:59.031109
+  3 | Malika Karimova   | malika@mail.com  |   19 | 2026-08-06 15:48:59.031109
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+  5 | Sardor Tursunov   | sardor@mail.com  |   20 | 2026-08-06 15:48:59.031109
+(5 rows)
+
+mening_bazam=# SELECT * FROM students WHERE yosh > 21;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+(1 row)
+
+mening_bazam=# SELECT * FROM students WHERE yosh >= 21;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  2 | Vali Aliyev       | vali@mail.com    |   21 | 2026-08-06 15:48:59.031109
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+(2 rows)
+
+mening_bazam=# SELECT * FROM students WHERE yosh >= 21 and ism =="Dilnoza Rustamova";
+ERROR:  column "Dilnoza Rustamova" does not exist
+LINE 1: SELECT * FROM students WHERE yosh >= 21 and ism =="Dilnoza R...
+                                                          ^
+mening_bazam=# SELECT * FROM students WHERE yosh >= 21 and ism == "Dilnoza Rustamova";
+ERROR:  column "Dilnoza Rustamova" does not exist
+LINE 1: ...ELECT * FROM students WHERE yosh >= 21 and ism == "Dilnoza R...
+                                                             ^
+mening_bazam=# SELECT * FROM students WHERE yosh >= 21 and ism == Dilnoza Rustamova;
+ERROR:  syntax error at or near "Rustamova"
+LINE 1: ...FROM students WHERE yosh >= 21 and ism == Dilnoza Rustamova;
+                                                             ^
+mening_bazam=# SELECT * FROM students WHERE yosh >= 21 AND ism == Dilnoza Rustamova;
+ERROR:  syntax error at or near "Rustamova"
+LINE 1: ...FROM students WHERE yosh >= 21 AND ism == Dilnoza Rustamova;
+                                                             ^
+mening_bazam=# SELECT * FROM students WHERE yosh >= 21 AND ism == "Dilnoza Rustamova";
+ERROR:  column "Dilnoza Rustamova" does not exist
+LINE 1: ...ELECT * FROM students WHERE yosh >= 21 AND ism == "Dilnoza R...
+                                                             ^
+mening_bazam=# SELECT * FROM students ORDER BY yosh ASC;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  3 | Malika Karimova   | malika@mail.com  |   19 | 2026-08-06 15:48:59.031109
+  1 | Ali Valiyev       | ali@mail.com     |   20 | 2026-08-06 15:48:59.031109
+  5 | Sardor Tursunov   | sardor@mail.com  |   20 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev       | vali@mail.com    |   21 | 2026-08-06 15:48:59.031109
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+(5 rows)
+
+mening_bazam=# SELECT * FROM students ORDER BY yosh;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  3 | Malika Karimova   | malika@mail.com  |   19 | 2026-08-06 15:48:59.031109
+  1 | Ali Valiyev       | ali@mail.com     |   20 | 2026-08-06 15:48:59.031109
+  5 | Sardor Tursunov   | sardor@mail.com  |   20 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev       | vali@mail.com    |   21 | 2026-08-06 15:48:59.031109
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+(5 rows)
+
+mening_bazam=# SELECT * FROM students ORDER BY ism;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  1 | Ali Valiyev       | ali@mail.com     |   20 | 2026-08-06 15:48:59.031109
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+  3 | Malika Karimova   | malika@mail.com  |   19 | 2026-08-06 15:48:59.031109
+  5 | Sardor Tursunov   | sardor@mail.com  |   20 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev       | vali@mail.com    |   21 | 2026-08-06 15:48:59.031109
+(5 rows)
+
+mening_bazam=# SELECT * FROM students ORDER BY yosh DESC;
+ id |        ism        |      email       | yosh |      yaratilgan_vaqt       
+----+-------------------+------------------+------+----------------------------
+  4 | Dilnoza Rustamova | dilnoza@mail.com |   22 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev       | vali@mail.com    |   21 | 2026-08-06 15:48:59.031109
+  1 | Ali Valiyev       | ali@mail.com     |   20 | 2026-08-06 15:48:59.031109
+  5 | Sardor Tursunov   | sardor@mail.com  |   20 | 2026-08-06 15:48:59.031109
+  3 | Malika Karimova   | malika@mail.com  |   19 | 2026-08-06 15:48:59.031109
+(5 rows)
+
+mening_bazam=# ^[[200~SELECT * FROM students WHERE ism LIKE '%Ali%';~
+ERROR:  syntax error at or near "
+INE 1: SELECT * FROM students WHERE ism LIKE '%Ali%';
+        ^
+mening_bazam-# SELECT * FROM students WHERE ism LIKE '%Ali%';
+ERROR:  syntax error at or near "~"
+LINE 1: ~
+        ^
+mening_bazam=# SELECT * FROM students WHERE ism LIKE '%Ali%';
+ id |     ism     |     email     | yosh |      yaratilgan_vaqt       
+----+-------------+---------------+------+----------------------------
+  1 | Ali Valiyev | ali@mail.com  |   20 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev | vali@mail.com |   21 | 2026-08-06 15:48:59.031109
+(2 rows)
+
+mening_bazam=# SELECT * FROM students WHERE ism LIKE '%ev%';
+ id |     ism     |     email     | yosh |      yaratilgan_vaqt       
+----+-------------+---------------+------+----------------------------
+  1 | Ali Valiyev | ali@mail.com  |   20 | 2026-08-06 15:48:59.031109
+  2 | Vali Aliyev | vali@mail.com |   21 | 2026-08-06 15:48:59.031109
+(2 rows)
+
+mening_bazam=# 
+

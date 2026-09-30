@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -138,3 +139,11 @@ STATICFILES_DIRS = [
 LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
+
+
+
+
+
+
+
+LOGIN_URL = '/en/login/'

@@ -11,8 +11,9 @@ urlpatterns=[
     path('cheked/',Biling),
     path('tek/',Taj),
     path('search/',Search, name='Search'),
-    path('sorov/',Qidiruv)
-
+    path('sorov/',Qidiruv),
+    path('login/',Login.as_view() , name='login'),
+    path('register/',Register.as_view()),
 ]
 
 

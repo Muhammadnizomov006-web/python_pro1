@@ -1,9 +1,14 @@
 from multiprocessing import context
 from os import name
 
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Q
 from django.shortcuts import render,redirect
-from django.views.generic import DetailView
+from django.template.context_processors import request
+from django.views.generic import DetailView, View, CreateView
 
 from electro_main.models import *
 
@@ -17,12 +22,12 @@ def Get_context():
 
 
 
-class Detalles(DetailView):
+class Detalles(LoginRequiredMixin, DetailView):
     model = Product
     template_name = 'product.html'
     context_object_name = 'product'
 
-
+@login_required
 def index(request):
     context=Get_context()
     return render(request, 'index.html', context)
@@ -79,7 +84,7 @@ def Taj(request):
     }
     return render(request, 'tek.html',tek_con)
 
-
+login_required(login_url='/login/')
 def Search(request):
     query = request.GET.get('q', '')
     products = Product.objects.filter(Q(name__icontains=query))
@@ -89,6 +94,45 @@ def Search(request):
 
 
 
+
+
+
+
+class Login(View):
+    def get(self,request):
+        return render(request, 'login.html')
+
+
+
+    def post(self,request):
+        usernmae=request.POST.get('username')
+        password=request.POST.get('password')
+        email=request.POST.get('email')
+        user=authenticate(request=request,usernmae=usernmae, password=password,email=email)
+        if user is not None:
+            login(request,user)
+            return redirect('index.html')
+        return render(request, 'index.html',{'error':"Hato kitildi "})
+
+
+
+
+
+
+# def Registers(request):
+#     if request.method == "POST":
+#         form =UserCreationForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             return redirect('/otdi/')
+#     form = UserCreationForm()
+#     return render(request,'registration/Loginlar.html',{'form':form})
+#
+
+class Register(CreateView):
+    form_class = UserCreationForm
+    template_name = "Register.html"
+    success_url = ',/Register.html/'
 
 
 
